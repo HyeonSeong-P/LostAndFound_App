@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name_text_in_post"
+        android:textSize="25sp"
+        android:text="~님의 게시물"
+        android:textColor="#ffffff"
+        android:background="#0073b1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/user_name_text_in_post"
+        app:layout_constraintBottom_toTopOf="@id/go_to_chatting_btn"
+        android:layout_marginBottom="10dp"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/post_imageView"
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_thing_text"
+                app:layout_constraintTop_toBottomOf="@id/post_imageView"
+                app:layout_constraintLeft_toLeftOf="@id/post_imageView"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_location_text"
+            app:layout_constraintLeft_toLeftOf="@id/post_imageView"
+            app:layout_constraintTop_toBottomOf="@id/post_thing_text"
+            android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_body_text"
+                app:layout_constraintLeft_toLeftOf="@id/post_imageView"
+                app:layout_constraintTop_toBottomOf="@id/post_location_text"
+                android:layout_marginTop="15dp"/>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/go_to_chatting_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="~님과 채팅하기"
+        android:textColor="#ffffff"
+        android:background="#0073b1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

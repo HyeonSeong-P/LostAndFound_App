@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "749489380919",
+    "project_id": "soseolsil",
+    "storage_bucket": "soseolsil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749489380919:android:c42f13577ec26c482b29b2",
+        "android_client_info": {
+          "package_name": "com.example.soseolsil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749489380919-e8v8e21gegif4cvu5nfrmvstjfrbkb9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soseolsil",
+            "certificate_hash": "1fdf7fa7eb2f081c2b9885df0af953768d66121d"
+          }
+        },
+        {
+          "client_id": "749489380919-fr9hssdha2hha7r66kmnqhe85k3muf72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW-Oa-0FjHk6V8i9a49wBJI0qCk9Pg1KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749489380919-fr9hssdha2hha7r66kmnqhe85k3muf72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/setMapPostFragment"
+        android:label="set_map_post_fragment"
+        android:name="com.example.soseolsil.fragment.SetMapPostFragment"/>
+    <fragment
+        android:id="@+id/setMapFragment"
+        android:label="set_map_fragment"
+        android:name="com.example.soseolsil.fragment.SetMapFragment"/>
+
+    <fragment
+        android:id="@+id/chatBoardFragment"
+        android:label="chat_board_fragment"
+        android:name="com.example.soseolsil.fragment.ChatBoardFragment"
+        />
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:label="chat_fragment"
+        android:name="com.example.soseolsil.fragment.ChatFragment"
+        />
+
+    <fragment
+        android:id="@+id/myPageFragment"
+        android:label="my_page_fragment"
+        android:name="com.example.soseolsil.fragment.MyPageFragment"
+        />
+    <fragment
+        android:id="@+id/foundFragment"
+        android:label="found_fragment"
+        android:name="com.example.soseolsil.fragment.FoundFragment"
+        />
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:label="main_fragment"
+        android:name="com.example.soseolsil.fragment.MainFragment"
+        />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:label="home_fragment"
+        android:name="com.example.soseolsil.fragment.HomeFragment"
+        />
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:label="home_fragment"
+        android:name="com.example.soseolsil.fragment.SignUpFragment"
+        />
+
+    <fragment
+        android:id="@+id/writePostFragment"
+        android:label="community_fragment"
+        android:name="com.example.soseolsil.fragment.WritePostFragment"
+        />
+
+    <fragment
+        android:id="@+id/lostFragment"
+        android:label="lost_fragment"
+        android:name="com.example.soseolsil.fragment.LostFragment"
+        />
+
+    <fragment
+        android:id="@+id/postFragment"
+        android:label="post_fragment"
+        android:name="com.example.soseolsil.fragment.SeePostFragment"
+        />
+
+</navigation>

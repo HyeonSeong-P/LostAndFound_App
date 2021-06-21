@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/opponent_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_person_24"
+        />
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/opponent_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/opponent_image"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintTop_toTopOf="@id/opponent_image"
+
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/chat_block_text_opponent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#000000"
+        android:layout_marginTop="3dp"
+        app:layout_constraintTop_toBottomOf="@id/opponent_nickname"
+        app:layout_constraintLeft_toRightOf="@id/opponent_image"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/back"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"/>
+
+    <TextView
+        android:id="@+id/time_stamp_opponent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        app:layout_constraintLeft_toRightOf="@id/opponent_image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintTop_toBottomOf="@id/chat_block_text_opponent"/>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
